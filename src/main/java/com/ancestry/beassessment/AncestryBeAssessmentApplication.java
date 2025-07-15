@@ -21,4 +21,9 @@ public class AncestryBeAssessmentApplication implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(AncestryBeAssessmentApplication.class, args);
     }
+
+    @Override
+    public void run(String... args) throws Exception {
+
+    }
 }
